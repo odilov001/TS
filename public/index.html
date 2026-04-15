@@ -4,8 +4,21 @@
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Document</title>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link href="https://fonts.googleapis.com/css2?family=Henny+Penny&family=Lavishly+Yours&display=swap" rel="stylesheet" />
 	</head>
-	<body>
-		<h1 class="text-red-600">salom</h1>
+	<body class="bg-lime-900 text-white">
+		<h1 class="text-center font-bold font-['Henny_Penny'] text-[80px]">TO DO APP</h1>
+		<div class="container mx-auto grid place-items-center">
+			<form action="">
+				<input type="text" placeholder="Enter your task" maxlength="15" class="outline-none px-[20px] py-[10px] bg-lime-900 border border-2 border-white rounded-md" />
+				<button class="px-[20px] w-[100px] bg-lime-500 py-[10px] rounded-md active:scale-95">add</button>
+			</form>
+
+			<div class="w-[300px] mt-[50px]">
+				<ul class="text-[30px]" id="list"></ul>
+			</div>
+		</div>
 	</body>
 </html>
